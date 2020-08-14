@@ -4,8 +4,8 @@
 
 
 ## 감사합니다
-> name: 윤종휘
+> Name: 윤종휘
 
-> phone: 010-8254-0551
+> Phone: 010-8254-0551
 
 > Email: casta10@naver.com
