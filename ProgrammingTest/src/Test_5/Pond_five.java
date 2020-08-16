@@ -16,7 +16,7 @@ public class Pond_five {
 		pond.depthSum();
 	}
 
-	// 초기값
+	//  초기값
 	private void setPond() {
 
 		for (int i = 0; i <= 9; i++) {
