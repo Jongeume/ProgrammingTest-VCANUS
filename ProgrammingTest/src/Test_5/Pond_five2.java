@@ -1,6 +1,6 @@
 package Test_5;
 
-public class Pond_five {
+public class Pond_five2 {
 
 	private static int ROW = 10;
 	private static int COL = 10;
@@ -9,7 +9,7 @@ public class Pond_five {
 
 	public static void main(String[] args) {
 
-		Pond_five pond = new Pond_five();
+		Pond_five2 pond = new Pond_five2();
 		pond.setPond();
 		pond.updatePond();
 		pond.printPond();
