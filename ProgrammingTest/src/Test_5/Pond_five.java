@@ -1,6 +1,6 @@
 package Test_5;
 
-public class Pond {
+public class Pond_five {
 
 	private static int ROW = 10;
 	private static int COL = 10;
@@ -9,7 +9,7 @@ public class Pond {
 
 	public static void main(String[] args) {
 
-		Pond pond = new Pond();
+		Pond_five pond = new Pond_five();
 		pond.setPond();
 		pond.updatePond();
 		pond.printPond();
@@ -19,49 +19,61 @@ public class Pond {
 	// 초기값
 	private void setPond() {
 
-		for (int i = 1; i <= 9; i++) {
+		for (int i = 0; i <= 9; i++) {
 
 			switch (i) {
-			case 1:
-				pondArr[i][4] = 1;
+			case 0:
+				for (int j = 4; j <= 4; j++) {
+					pondArr[i][j] = 1;
+				}
 				break;
-			case 2:
+
+			case 1:
 				for (int j = 3; j <= 5; j++) {
 					pondArr[i][j] = 1;
 				}
 				break;
+			case 2:
+				for (int j = 2; j <= 6; j++) {
+					pondArr[i][j] = 1;
+				}
+				break;
 			case 3:
-				for (int j = 1; j <= 6; j++) {
+				for (int j = 1; j <= 7; j++) {
 					pondArr[i][j] = 1;
 				}
 				break;
 
 			case 4:
-				for (int j = 1; j <= 8; j++) {
+				for (int j = 0; j <= 8; j++) {
 					pondArr[i][j] = 1;
 				}
 				break;
 			case 5:
-				for (int j = 1; j <= 8; j++) {
+				for (int j = 1; j <= 7; j++) {
 					pondArr[i][j] = 1;
 				}
 				break;
 
 			case 6:
-				for (int j = 2; j <= 7; j++) {
+				for (int j = 2; j <= 6; j++) {
 					pondArr[i][j] = 1;
 				}
 				break;
 
 			case 7:
-				for (int j = 3; j <= 6; j++) {
+				for (int j = 3; j <= 5; j++) {
 					pondArr[i][j] = 1;
 				}
 				break;
 			case 8:
-				pondArr[i][4] = 1;
+				for (int j = 4; j <= 4; j++) {
+					pondArr[i][j] = 1;
+				}
 				break;
-
+			case 9:
+		
+				break;
 			}
 
 		}
@@ -187,7 +199,7 @@ public class Pond {
 		}
 
 		System.out.println(
-				"one: " + number[0] + ", two: " + number[1] + ", three: " + number[2] + ", four: " + number[3]);
+				"one: " + number[0] + ", two: " + number[1] + ", three: " + number[2] + ", four: " + number[3] + ", five : "+ number[4]);
 
 		System.out.println();
 		int result = 0;
