@@ -87,7 +87,7 @@ public class Pond_five {
 
 	}
 
-	// *************** 수정 시작 ***************
+	// *************** 수정 시작 **************
 
 	// 숫자 존재 여부 판단
 	private boolean exist1(int row, int col, int t) {
